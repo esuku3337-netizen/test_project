@@ -19,3 +19,6 @@ data/raw/
 
 # Generated outputs
 outputs/
+
+# Python cache files
+.pytest_cache/
