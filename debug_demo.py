@@ -6,5 +6,3 @@ average = total / len(gene_expression)
 
 print("Total expression:", total)
 print("Average expression:", average)
-
-import os
