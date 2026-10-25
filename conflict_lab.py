@@ -1,2 +1,4 @@
 def calculate_average(values):
-    return sum(values)/len(values)
+    if not values:
+        raise ValueError("Values cannot be empty")
+    return round(sum(values) / len(values), 2)
