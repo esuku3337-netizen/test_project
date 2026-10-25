@@ -1,2 +1,2 @@
 def calculate_average(values):
-    return sum(values)/len(values)
+    return round(sum(values)/len(values),2)
